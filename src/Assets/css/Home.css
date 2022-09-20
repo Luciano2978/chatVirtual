@@ -1,0 +1,65 @@
+.body{ 
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #2196f3;
+    /* font: 100%/1.4 system-ui,sans-serif;
+    line-height: 1.4; */
+    
+}
+h1{
+    text-align: center;
+    margin: 0;
+    
+}
+h2{
+    text-align: center;
+    margin: 5;
+}
+.area{
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0 0.66rem 2.4rem #0d47a1;
+    position: relative;
+    overflow: hidden;
+}
+
+.cuadritoContacto {
+    position: fixed;
+    background: burlywood;
+    width: 240px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    
+}
+
+.cuadritoContacto label{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0px;
+    bottom: 50%;
+}
+
+.cuadritoContacto img{
+    width: 50px;
+}
+
+.cuadritoContacto .actividad {
+    position: relative;
+    color: red;
+    font-size: 60px;
+    right: 5%;
+    top: 0%;  
+}
+
+.body.btnDesconectar{
+    position: relative;
+    left: 50%;
+}
