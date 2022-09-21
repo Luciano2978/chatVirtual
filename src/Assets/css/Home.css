@@ -3,48 +3,76 @@
     margin: 0;
     display: grid;
     place-items: center;
-    background: #2196f3;
+    background: linear-gradient(#141e30, #243b55);
     /* font: 100%/1.4 system-ui,sans-serif;
     line-height: 1.4; */
     
 }
 h1{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
     text-align: center;
-    margin: 0;
     
 }
 h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
     text-align: center;
-    margin: 5;
 }
 .area{
+
+    padding: 1rem;
+    width: 500px;
+    height: 800px;
+    position: relative;
+    right: 20%;
+    top: 55%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+.areaMensajes{
     background: white;
     padding: 2rem;
     border-radius: 8px;
     width: 1000px;
-    height: 700px;
-    box-shadow: 0 0.66rem 2.4rem #0d47a1;
+    height: 750px;
+    box-shadow: 0 0.66rem 2.4rem #ffffff;
     position: relative;
+    left: 20%;
     overflow: hidden;
+    bottom: 95%;
+    box-shadow: inset 0 0 0 10px #08B;
+
+
+
 }
 
 .cuadritoContacto {
-    position: fixed;
-    background: burlywood;
+    position: relative;
+    background: rgb(232, 182, 135);
     width: 240px;
     height: 50px;
-    padding: 20px;
     border-radius: 20px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
+
     
 }
 
 .cuadritoContacto label{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-    margin: 0px;
-    bottom: 50%;
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+
 }
 
 .cuadritoContacto img{
@@ -52,14 +80,40 @@ h2{
 }
 
 .cuadritoContacto .actividad {
-    position: relative;
+    margin: 0 0 30px;
+    padding: 0;
     color: red;
-    font-size: 60px;
-    right: 5%;
-    top: 0%;  
+    font-size: 300%;
+    text-align: center;
+    
+}
+.btnDesconectar img{
+    position: relative;
+    left: 0%;
+    max-height: 100%;
+    height: 50px;
+    width: auto;
+}
+.areaMensajes #input{
+    position: relative;
+    height: 3%;
+    width: 90%;
+    top: 98%;
+
+}
+.areaMensajes img{
+    position: relative;
+    right:  23%;
+    height: 20px;
+    width: 50px;
 }
 
-.body.btnDesconectar{
-    position: relative;
-    left: 50%;
+.areaMensajes .button1{
+    position: absolute;
+    left: 90%;
+    top: 94.5%;
+    max-height: 100%;
+    height: 25px;
+    width: 50px;
+
 }

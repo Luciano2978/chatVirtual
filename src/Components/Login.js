@@ -43,7 +43,7 @@ export default function Login () {
         e.preventDefault()
         await reiniciarContraseña(email);
     }
-
+    
     return(
         <>
             <div>
