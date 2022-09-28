@@ -1,0 +1,19 @@
+import gmail from "../img/gmail.png"
+import github from "../img/github.png"
+import facebook from "../img/facebook.webp"
+import outlook from "../img/outlook.png"
+import twitter from "../img/twitter.webp"
+import persona from "../img/persona.png"
+import desconectar from "../img/desconectar.png"
+import botonEnviar from "../img/botonEnviar.png"
+
+export default {
+    "img1": gmail,
+    "img2": github,
+    "img3": facebook,
+    "img4": outlook,
+    "img5": twitter,
+    "img6": persona,
+    "img7": desconectar,
+    "img8": botonEnviar
+}
